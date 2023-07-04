@@ -1,7 +1,7 @@
-# teemo
+# Teemo
 取自LOL的一名约德尔人，迅捷斥候-提莫。
+A simple Java NIO lightweight application
 
-本项目是一款静态文件服务器。
 处理，html，css，js，css 等静态资源。
 
 技术：
