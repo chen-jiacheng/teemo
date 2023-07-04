@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <title>Server Configuration</title>
+</head>
+<body class="p-8">
+<h1 class="text-xl mb-4">Server Configuration</h1>
+<img src="chenjiacheng-media-avatar.jpg" width="400" height="400">
+
+<form>
+    <table class="table-fixed w-full">
+        <tr>
+            <td class="border px-4 py-2">Domain</td>
+            <td class="border px-4 py-2"><input class="w-full" type="text" value="chenjiacheng.com"></td>
+        </tr>
+        <tr>
+            <td class="border px-4 py-2">Port</td>
+            <td class="border px-4 py-2"><input class="w-full" type="text" value="8080"></td>
+        </tr>
+        <tr>
+            <td class="border px-4 py-2">Root</td>
+            <td class="border px-4 py-2"><input class="w-full" type="text" value="~/example"></td>
+        </tr>
+        <tr>
+            <td class="border px-4 py-2">GZIP</td>
+            <td class="border px-4 py-2"><input class="w-full" type="text" value="on"></td>
+        </tr>
+        <tr>
+            <td class="border px-4 py-2">Keepalive</td>
+            <td class="border px-4 py-2"><input class="w-full" type="text" value="on"></td>
+        </tr>
+        <tr>
+            <td class="border px-4 py-2">Idle</td>
+            <td class="border px-4 py-2"><input class="w-full" type="text" value="100s"></td>
+        </tr>
+    </table>
+
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4" type="submit">
+        Save Changes
+    </button>
+</form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+domain: localhost
+port: 8080
+root: /Users/chenjiacheng/Jetbrains/IdeaProjects/teemo/teemo
+gzip: on
+keepalive: on
+idle: 100s
+
